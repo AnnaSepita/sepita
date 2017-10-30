@@ -1,0 +1,227 @@
+
+.HEAD {
+    display: inline-block;
+    width: 70.844%;
+    height: 60px;
+    background: #ededed;
+    float: left;
+    padding-left: 8.156%;
+}
+
+.ICONS {
+    width: 21%;
+    display: inline-block;
+    float:right;
+    height: 60px;
+    background: #ededed;
+    color: #2e2e2e;
+}
+
+.PHILAD {
+    width: 10%;
+    height: 50%;
+    margin-left:30px;
+    margin-top:10px;
+    float:left;
+    color: white;
+}
+
+.pHILAD1 {
+    color: white;
+    background: black;
+    border-radius: 3px;
+    padding: 10px 20px 8px 10px;
+}
+
+.NUMBER{
+    width: 200px;
+    height: 20px;
+    float:left;
+    color: #565655;
+    margin-left:65px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: smaller;
+    margin-top:15px;
+padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 9px;
+}
+
+.LOCATION {
+    float:left;
+    width: 350px;
+    height: 20px;
+    margin-top:15px;
+    color: #565655;
+    margin-left:-10px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: smaller;
+    padding-top: 10px;
+}
+
+.MAIL
+{
+    text-decoration: inherit;
+    display: inline-block;
+    margin-top:20px;
+    margin-right: 10px;
+    padding-left:37px;
+    float:left;
+    color: #2e2e2e;
+
+}
+
+.YOUTUBE {
+    margin-top:20px;
+    float:left;
+    margin-left: 8px;
+    padding-left: 5px;
+    padding-right: 20px;
+    display: inline-block;
+    color: #2e2e2e;
+}
+
+.GOOGLE {
+    color: #2e2e2e;
+    margin-top:20px;
+    float:left;
+    margin-left: 1px;
+    display: inline-block;
+
+}
+
+.LINKEDIN {
+    margin-top:20px;
+    float:left;
+    margin-left: 20px;
+    display: inline-block;
+    color: #2e2e2e;
+}
+
+.TWITTER {
+    margin-top:20px;
+    float:left;
+    margin-left: 24px;
+    display: inline-block;
+    color: #2e2e2e;
+}
+
+
+.PART{
+    display:inline-block;
+    padding-top: -1px;
+    background-color:#ffffff;
+    float: left;
+}
+
+.IM {
+    display: inline-block;
+    width: 15%;
+    height: 20px;
+    float:left;
+    padding-left: 11%;
+    padding-top: -6%;
+    margin-bottom: 65%;
+}
+span{
+
+    display: inline-block;
+}
+
+.TABLE {
+    width: 70%;
+    margin-top: 17px;
+    display: inline-block;
+    float: right;
+}
+
+
+li {
+    display: inline-block;
+    float: left;
+    margin-left: 50px;
+    padding-right: 10px;
+    padding-left: 5px;
+    border: 0 solid lightgrey;
+    border-right-width: 1px;
+
+}
+
+
+.LINE2 {
+    position: absolute;
+    color: lightgrey;
+}
+
+.first
+{
+    margin-left: 125px;
+}
+
+p {
+
+    display: inline-block;
+
+}
+
+div {
+    display: inline-block;
+
+}
+
+.MENU
+{
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    color:white;
+    background: black;
+    margin-top: 7%;
+    float: left;
+    padding-top: 7px;
+}
+
+.HOME {
+    margin-left: 10px;
+    margin-top:30px;
+
+}
+.ABOUT {
+
+    margin-left: 30px;
+}
+.PRODUCTS {
+
+    margin-left: 30px;
+}
+.SERVICES {
+
+    margin-left: 30px;
+}
+.RENTALS {
+    margin-left: 30px;
+}
+.LEARNING {
+    margin-left: 30px;
+}
+.CONTACT {
+
+    margin-left: 30px;
+}
+.SEARCH {
+    float:right;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration-line: underline;
+    color: #bd2631;
+
+}
