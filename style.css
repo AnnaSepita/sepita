@@ -253,8 +253,7 @@ a {
     position: absolute;
 }
 .firstbl{
-
-    background-image: url("img/2.png");
+    background-image: url("img/1_1.png");
     float: left;
     height: 454px;
 }
@@ -265,40 +264,44 @@ h2{
     padding-left: 100px;
 }
 h4{
-    color: white;
+    color: black;
     padding-left: 50px;
    padding-top: 20px;
 }
 .secondbl{
-    background-image: url("img/7.png");
+    background-image: url("img/7_1.png");
     float: right;
     height: 454px;
 }
 .thirdbl{
-    background-image: url("img/8.png");
+    background-image: url("img/8_1.png");
     float: left;
     height: 454px;
     padding-right: 12px;
 }
 .picture1{
     background-color:#ffffff;
-    padding-left: 50%;
-    text-align: center;
-    padding-top: 10px;
+    float: right;
+    margin-top: 200px;
+    margin-right: 86px;
+    margin-left: 86px;
 }
 .picture2{
     background-color:#ffffff;
+    z-index: 99999;
     padding-left: 80px;
-    text-align: center;
-    padding-top: 10px;
     padding-right:80px;
+    margin-top: 150px;
+    position: absolute;
 }
 .picture3{
     background-color:#bd2631;
-    padding-left: 105px;
-    text-align: center;
-    padding-top: 10px;
-    padding-right: 105px;
+    float: left;
+    color: white;
+    padding: 144px 90px;
+}
+.picture4{
+    float: left;
 }
 
 
@@ -309,7 +312,6 @@ h4{
         padding-left: 30px;
     }
     .phila1{
-
         padding-right: 15px;
     }
     .icons{
@@ -438,12 +440,12 @@ h4{
                 position: fixed;
                 text-align: center;
             }
-            .home{
+            .menu{
                 width: 10%;
             }
             @media screen and (max-width: 760px) {
 
-                .home{
+                .menu{
                     width: 30%;
                 }
             }
