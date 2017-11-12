@@ -282,13 +282,13 @@ h4{
 .picture1{
     background-color:#ffffff;
     float: right;
-    margin-top: 200px;
-    margin-right: 86px;
-    margin-left: 86px;
+    padding-top: 200px;
+    padding-right: 86px;
+   padding-left: 86px;
 }
 .picture2{
     background-color:#ffffff;
-    z-index: 99999;
+
     padding-left: 80px;
     padding-right:80px;
     margin-top: 150px;
@@ -303,7 +303,18 @@ h4{
 .picture4{
     float: left;
 }
+@media screen and (max-width: 1338px) {
 
+    .picture1{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .picture2{
+        padding-left: 60px;
+        padding-right: 30px;
+    }
+
+}
 
 @media screen and (max-width: 1270px) {
     .phila{
@@ -328,9 +339,16 @@ h4{
         padding-left: 20px;
         margin-left: 70px;
     }
+    .picture1{
+        float: none;
+    }
+    .secondbl{
+
+        position: relative;
+    }
 }
 
-@media screen and (max-width: 1190px) {
+@media screen and (max-width: 1200px) {
     .phila {
         margin: 0;
         margin-top: 10px;
@@ -382,6 +400,12 @@ h4{
 .home1{
     margin-left: 20px;
 }
+.picture2{
+    position: absolute;
+}
+.secondbl{
+float: none;
+}
 }
     @media screen and (max-width: 1007px) {
         .phila {
@@ -421,8 +445,7 @@ h4{
     }
         @media screen and (max-width: 996px) {
             .phila{
-                width: 10%;
-                display: flex;
+
             }
             .number{
                 position: absolute;
@@ -441,12 +464,12 @@ h4{
                 text-align: center;
             }
             .menu{
-                width: 10%;
+                width:50%;
             }
             @media screen and (max-width: 760px) {
 
                 .menu{
-                    width: 30%;
+                    width: 50%;
                 }
             }
     }
