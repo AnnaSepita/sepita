@@ -310,7 +310,7 @@ h4{
         padding-right: 30px;
     }
     .picture2{
-        padding-left: 60px;
+        padding-left: 30px;
         padding-right: 30px;
     }
 
@@ -408,6 +408,9 @@ float: none;
 }
 }
     @media screen and (max-width: 1007px) {
+        .head{
+           width:  100%
+        }
         .phila {
             display: block;
             width: auto;
@@ -444,9 +447,7 @@ float: none;
         }
     }
         @media screen and (max-width: 996px) {
-            .phila{
 
-            }
             .number{
                 position: absolute;
                 text-align: left;
@@ -464,15 +465,19 @@ float: none;
                 text-align: center;
             }
             .menu{
-                width:50%;
+                width:100%;
             }
-            @media screen and (max-width: 760px) {
 
-                .menu{
-                    width: 50%;
-                }
-            }
     }
+@media screen and (max-width: 760px) {
+.head{
+    width: 100%;
+}
+    .phila{
+        width: 50%;
+    }
+
+}
 
 /*
 .slider-item{
