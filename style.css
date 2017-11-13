@@ -272,6 +272,7 @@ h4{
     background-image: url("img/7_1.png");
     float: right;
     height: 454px;
+    position: absolute;
 }
 .thirdbl{
     background-image: url("img/8_1.png");
@@ -283,13 +284,11 @@ h4{
     background-color:#ffffff;
     float: right;
     position: absolute;
-
+    padding-top: 24px ;
 }
 .picture2{
     background-color:#ffffff;
-
-
-
+    padding-top: 4px;
 }
 .picture3{
     background-color:#bd2631;
@@ -474,9 +473,7 @@ h4{
     .phila{
         width: 100%;
     }
-    .picture1{
-        width: auto;
-    }
+
 
 }
 
