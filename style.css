@@ -282,17 +282,14 @@ h4{
 .picture1{
     background-color:#ffffff;
     float: right;
-    padding-top: 200px;
-    padding-right: 86px;
-   padding-left: 86px;
+    position: absolute;
+
 }
 .picture2{
     background-color:#ffffff;
 
-    padding-left: 80px;
-    padding-right:80px;
-    margin-top: 150px;
-    position: absolute;
+
+
 }
 .picture3{
     background-color:#bd2631;
@@ -306,12 +303,10 @@ h4{
 @media screen and (max-width: 1338px) {
 
     .picture1{
-        padding-left: 30px;
-        padding-right: 30px;
+        float: none;
     }
-    .picture2{
-        padding-left: 30px;
-        padding-right: 30px;
+    .secondbl{
+        float: none;
     }
 
 }
@@ -341,10 +336,6 @@ h4{
     }
     .picture1{
         float: none;
-    }
-    .secondbl{
-
-        position: relative;
     }
 }
 
@@ -400,12 +391,8 @@ h4{
 .home1{
     margin-left: 20px;
 }
-.picture2{
-    position: absolute;
-}
-.secondbl{
-float: none;
-}
+
+
 }
     @media screen and (max-width: 1007px) {
         .head{
@@ -442,12 +429,15 @@ float: none;
             display: inline-block;
         }
 
-        picture {
-            width: 100%;
-        }
+
     }
         @media screen and (max-width: 996px) {
-
+            .head{
+                width: 70%;
+            }
+.home{
+    width: 60%;
+}
             .number{
                 position: absolute;
                 text-align: left;
@@ -465,7 +455,7 @@ float: none;
                 text-align: center;
             }
             .menu{
-                width:100%;
+                width:70%;
             }
 
     }
