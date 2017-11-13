@@ -326,7 +326,7 @@ h4{
         padding-right: 10px;
     }
     .home{
-        width:  50%;
+        width:  85%;
         padding-right: 10px;
     }
     .search{
@@ -380,7 +380,7 @@ h4{
     margin-top: 130px;
 }
     .home{
-        width:  50%;
+
         padding-right: 10px;
     }
     .search{
@@ -396,7 +396,7 @@ h4{
 }
     @media screen and (max-width: 1007px) {
         .head{
-           width:  100%
+           width:  70%
         }
         .phila {
             display: block;
@@ -435,9 +435,6 @@ h4{
             .head{
                 width: 70%;
             }
-.home{
-    width: 60%;
-}
             .number{
                 position: absolute;
                 text-align: left;
@@ -461,10 +458,24 @@ h4{
     }
 @media screen and (max-width: 760px) {
 .head{
-    width: 100%;
+    width: 40%;
 }
     .phila{
         width: 50%;
+    }
+.menu{
+    width: 40%;
+}
+}
+@media screen and (max-width: 560px) {
+    .head{
+        width: 40%;
+    }
+    .phila{
+        width: 100%;
+    }
+    .picture1{
+        width: auto;
     }
 
 }
