@@ -2,578 +2,395 @@
     margin: 0;
     padding: 0;
 }
-ul{
+body {
+    font: 400 16px/1.5 'Hind', sans-serif;
+    color: #565655;
+}
+ul {
     list-style: none;
 }
-a{
+ul li {
+    display: inline-block;
+}
+a {
     text-decoration: none;
     color: #333;
 }
-.head {
-    display: inline-block;
-    width: 100%;
-    height: 60px;
+a:hover {
+    color: #bd2631;
+}
+.clearfix:after,
+.clearfix:before {
+    display: table;
+    content: '';
+}
+.clearfix:after {
+    clear: both;
+}
+/*    HEADER   */
+.contacts-information {
     background: #ededed;
+    padding: 13px 100px;
 }
-.phila {
-    padding-left: 8.156%;
-    width: 10%;
-    height: 50%;
-    margin-left:30px;
-    margin-top:10px;
-    float:left;
-    color: white;
+.address {
+    float: left;
 }
-.phila1 {
-    color: white;
-    background: black;
-    border-radius: 3px;
-    padding: 10px 20px 8px 10px;
+.address div {
+    display: inline-block;
+    margin-right: 15px;
 }
-.number{
-    width: 200px;
-    height: 20px;
-    float:left;
-    color: #565655;
-    margin-left:40px;
-    font-family: sans-serif;
-    font-style: normal;
-    font-size: smaller;
-    margin-top:15px;
-padding-top: 10px;
-    padding-bottom: 9px;
+.icons {
+    float: right;
+    margin-top: 8px;
 }
-.location {
-    float:left;
-    width: 350px;
-    height: 20px;
-    margin-top:15px;
-    color: #565655;
-    margin-left:-15px;
-    font-family: sans-serif;
-    font-style: normal;
-    font-size: smaller;
-    padding-top: 10px;
-    padding-right: 30px;
-}
-.mail {
-    margin-top:20px;
-    margin-right: 10px;
-    padding-left:100px;
-    float:left;
-}
-.youtube {
-    margin-top:20px;
-    float:left;
-    margin-left: 8px;
-    padding-left: 5px;
-    padding-right: 20px;
-}
-.google {
-    margin-top:20px;
-    float:left;
-    margin-left: 1px;
-}
-.linkedin {
-    margin-top:20px;
-    float:left;
+.icons ul li {
     margin-left: 20px;
 }
-.twitter {
-    overflow: hidden;
-    text-decoration: none;
-    margin-top:20px;
-    float:left;
-    margin-left: 24px;
+.fa-phone,
+.fa-location-arrow {
+    color: #000;
 }
-.icons{
-    text-decoration: none;
-    margin-left: 100px;
-    padding-left: 10px;
+.city {
+    background: #000;
+    color: #fff;
+    border-radius: 3px;
+    padding: 6px 16px;
+    margin-left: 30px;
 }
-.icons a{
-    color: #2e2e2e;
+.fa-angle-down {
+    margin-left: 15px;
+    font-size: 18px;
+    margin-top: 2px;
 }
-.fa-envelope:hover {
-    color: #bc2732;
-}
-.fa-youtube:hover {
-    color: #bc2732;
-}
-.fa-google-plus:hover {
-    color: #bc2732;
-}
-.fa-linkedin:hover {
-    color: #bc2732;
-}
-.fa-twitter:hover{
-    color: #bc2732;
-}
-
-
-
+/****   BLOCK2   */
 .logo {
-    display: inline-block;
-    padding: 0px 100px;
+    padding: 29px 100px;
     background: #fff;
-    height: 125px;
-    float: right;
+    height: auto;
 }
-.img {
-    display: inline-block;
-    width: 15%;
-    height: 20px;
+.logo1 {
+    float: left;
 }
 .static {
-    display: inline-block;
     float: right;
-    margin-top: 10px;
-    margin-left: 345px;
+    margin-top: 40px;
 }
 .title {
-    display: inline-block;
-    margin-top: 38px;
     color: #000;
     font-weight: 600;
     font-size: 15px;
-    float: right;
-}
-.fa-check-circle-o {
-    display: inline-block;
-    margin-top:38px;
 }
 .static li p:first-of-type {
-    display: inline-block;
     float: left;
     margin-right: 15px;
     color: #000;
     font-size: 18px;
 }
-
 .static li p:last-of-type {
     display: inline-block;
 }
-
 .static p > span {
     display: block;
 }
-
 .static ul li {
-    display: inline-block;
-    padding-right: 10px;
-    padding-left: 0px;
+    padding-right: 35px;
     border-right: 1px solid #e6e6e6;
-    margin-right: 20px;
 }
-
 .static ul li:last-of-type {
-    display: inline-block;
     border-right: none;
     padding-right: 0;
     margin-right: 0;
 }
-
-p {
-    display: inline-block;
-}
-div {
-    display: inline-block;
-
-}
-
-
-
-
-.block{
-    display: inline-block;
-    width: 99%;
-}
-.menu
-{
-    position: absolute;
-    width: 94%;
-    display: inline-block;
-    height: 70px;
-    color:white;
-    background: black;
-    z-index: 99;
-    padding: 0px 19px 5px;
-   }
-a {
-    text-decoration: none;
+/*  BLOCK3  */
+.mobile-menu {
     color: white;
-}
-.home1{
-    margin-left: 122px;
-}
-.home{
-    float: left;
-    padding: 0px;
-    padding-right: 30px;
+    font-size: 24px;
     margin-top: 30px;
+    display: none;
+    cursor: pointer;
 }
-.home a:hover {
-    border-bottom: solid;
-    border-color: red;
-    padding-bottom: 20px;
-    border-width: 8px;
+.navigation {
+    background: #000000;
+    padding: 0 100px;
+    height:auto;
+}
+.navigation nav {
+    float: left;
+}
+nav li a {
+    color: #fff;
+    font-size: 16px;
+    padding: 24px 16px 19px;
+    display: inline-block;
+    text-transform: uppercase;
     position: relative;
+}
+nav li a:before {
+    content: '';
+    position: absolute;
+    height: 9px;
+    width: 0;
+    bottom: 0;
+    background: red;
+    left: 0;
+}
+nav li a:hover:before {
+    width: 100%;
+}
+.home {
+    margin-left: 25px;
+    margin-bottom: 20px;
 }
 .search {
-    float:right;
-    position: absolute;
-    padding-top: 27px;
-    padding-left: 29.5%;
+    float: right;
+    color: #fff;
+    line-height: 3.5;
+    font-size: 19px;
     cursor: pointer;
-    font-weight: 600;
-    font-size: 20px;
 }
-.fa-search{
-    text-decoration: none;
-    color: white;
-}
-.fa-search:hover {
-    border-bottom: solid;
-    border-color: red;
-    padding-bottom: 20px;
-    border-width: 8px;
-    position: relative;
-}
- a {
-    text-decoration: none;
-    color: white;
-}
-
-
-
-.picture{
+/*      Images block */
+.pictures {
     display: inline-block;
-    margin-top: 70px;
 }
-.firstbl{
-    background: url("img/1_1.png") no-repeat, #000000;
-    float: left;
-    height: 454px;
-    position:relative;
-    width: 50%;
-}
-.common_block{
-    display: inline-block;
-    width: 25%;
-    float: left;
-}
-h2{
-    margin-top: 170px;
+h2 {
+    padding: 100px 60px;
     color: #bd2631;
-    padding-left: 100px;
 }
-h4{
+h4 {
     color: white;
-    padding-left: 50px;
-   padding-top: 20px;
-    padding-right: 30px;
+    padding: 0px 60px;
 }
-.secondbl{
-    background: url("img/7_1.png")no-repeat, #000000;
+.photo1{
+    display: inline-block;
+    width: 100%;
+    height: 440px;
+}
+.firstbl {
+    background: url("img/1_1.png") no-repeat, #000;
+    float: left;
     height: 454px;
     width: 50%;
 }
-.third_block{
+.images1 {
+    display: inline-block;
+    width: 50%;
     float: left;
-    background: url("img/8_1.png") no-repeat, #000000;
+}
+.img2 {
+    width: 50%;
+    float: left;
+    height: 454px;
+}
+.img3 {
+    background: white;
+    width: 50%;
+    float: left;
+    text-align: center;
+    height: 454px;
+    padding-top: 147px;
+}
+.photo2 {
+    display: inline-block;
+    width: 100%;
+    height: 440px;
+}
+.images2 {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+.img4 {
+    float: left;
+    width: 50%;
+    display: inline-block;
+}
+.img5 {
+    background: white;
+    width: 50%;
+    text-align: center;
+    float: left;
+    height: 454px;
+    padding-top: 142px;
+}
+.secondbl {
+    background: url("img/7_1.png") no-repeat, #000;
+    float: right;
     height: 454px;
     width: 50%;
 }
-.picture1{
-    position: relative;
-    background-color:#ffffff;
-    padding-top: 170px;
-    padding-left: 100px;
-    padding-bottom: 177px;
-}
-.picture2{
-    background-color:#ffffff;
-    padding-top: 170px;
-    margin-left: 100px;
-}
-.picture3{
-    float: left;
-    background:#bd2631;
-    padding-top: 145px;
-    padding-bottom: 145px;
-    padding-left: 95px;
-    padding-right: 95px;
-    color: white;
-}
-.photo{
+.photo3 {
     display: inline-block;
     width: 100%;
 }
-.img10{
-
+.thirdbl {
+    background: url("img/8_1.png") no-repeat, #000;
     float: left;
+    height: 454px;
+    width: 50%;
 }
-
-@media screen and (max-width: 1270px) {
-    .phila{
-        margin: 0;
-        margin-top:10px;
-        padding-left: 30px;
+.images3 {
+    display: inline-block;
+    width: 50%;
+    float: right;
+}
+.img8 {
+    background: #bf232c;
+    width: 50%;
+    text-align: center;
+    float: left;
+    padding-top: 132px;
+    padding-bottom: 150px;
+}
+.img9 {
+    float: left;
+    width: 50%;
+}
+@media screen and (max-width: 1107px){
+    .address div{
+        display: block;
+        margin-bottom: 10px;
     }
-    .phila1{
-        padding-right: 15px;
+    .city{
+        width: 100px;
     }
-    .icons{
-        float: right;
-        margin-left: 0px;
-        padding-right: 10px;
+    .logo{
+        text-align: left;
     }
-    .home{
-        width:  85%;
-        margin-left: 0;
-        padding-right: 0px;
+    .static  ul li{
+        text-align: left;
     }
-    .menu{
-        display: table;
+    .block{
+        padding-right: 60px;
+        padding-left: 60px;
     }
-    .home1{
-        margin: 0;
-    }
-    .search{
-        padding-right: 2px;
-        padding-left:0px;
-        margin-left: 0px;
-    }
-    .picture{
-        margin-top: 337px;
-    }
-    .picture1{
-        float: left;
-    }
-    .picture2{
-        float: left;
+    nav li a{
+        padding: 24px 10px 16px;
+        font-size: 14px;
     }
 }
-
-@media screen and (max-width: 1200px) {
-    .phila {
-        margin: 0;
-        margin-top: 10px;
-        padding-left: 20px;
-    }
-
-    .phila1 {
-        padding-left: 2px;
-        padding-right: 15px;
-    }
-
-    .number {
-        margin-left: 10px;
-    }
-
-    .location {
-        margin-left: 0px;
-    }
-
-    .icons {
+@media screen and (max-width: 941px) {
+    .logo1 {
         float: none;
-        margin-left: 10px;
-
-    }
-    .img{
-        width: 100%;
     }
     .static{
-        display: inline-block;
-        padding: 0;
-        margin: 0;
-        margin-bottom: 30px;
         float: left;
-        text-align: center;
     }
-      .block{
-    margin-top: 130px;
-       }
-    .home{
-        padding-right: 10px;
-    }
-    .search{
-        padding-right: 2px;
-        padding-left: 20px;
-        margin-left: 70px;
-    }
-    .secondbl{
-       float: none;
-      }
 }
-    @media screen and (max-width: 1007px) {
 
-        .phila {
-            display: block;
-        }
-
-        .phila1 {
-            padding-right: 5px;
-        }
-
-        .icons {
-            margin: 0;
-            float: none;
-        }
-
-        .img {
-            float: none;
-            width: 100%;
-        }
-
-        .number {
-            display: block;
-        }
-
-        .location {
-            text-align: left;
-        }
-
-        .static {
-            display: inline-block;
-        }
-        .home{
-            width: 70%;
-        }
+@media screen and (max-width: 863px) {
+    .logo1 {
+        width: 100%;
+        height: auto;
     }
-@media screen and (max-width: 996px) {
-    .number{
-        position: absolute;
-        text-align: left;
-        margin-top: 50px;
-    }
-    .location{
-        position: absolute;
-        margin-left: 50px;
-        text-align: left;
-        margin-top: 50px;
-    }
+    .address,
     .icons{
-        float: right;
-        text-align: center;
-    }
-    .location{
-        margin-top: 60px;
-    }
-    .picture3{
-        margin: 0;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-    .firstbl{
+        float: none;
         width: 100%;
     }
-    .secondbl{
+    .contacts-information{
+        text-align: left;
+    }
+    .address .city{
+        margin: 0 auto 10px;
+    }
+}
+@media screen and (max-width: 714px) {
+    .firstbl {
+        width: 100%;
+        height: 445px;
+    }
+    .images1 {
+        float:inherit ;
+        width: 100%;
+        height: 445px;
+    }
+    .images2 {
+        width: 100%;
+        height: 445px;
+    }
+    .secondbl {
+        width: 100%;
+        height: 455px;
+    }
+    .photo3 {
+        margin-top: 450px;
+    }
+    .thirdbl {
         width: 100%;
     }
-    .third_block{
+    .images3 {
+        float:left;
         width: 100%;
     }
-    .common_block{
+}
+@media screen and (max-width: 704px) {
+    .navigation nav{
+        position: relative;
         width: 50%;
     }
-    .search{
-        float: left;
-    }
-}
-@media screen and (max-width: 760px) {
-    .head{
+    .logo1{
         width: 100%;
     }
-    .home{
-        width: 70%;
+    #menu{
+        display: none;
+        position: absolute;
+        top: 56px;
+        left: 0;
+        background: #000;
+        right: 0;
+        z-index: 9999999;
     }
-      .location{
-     padding-top: 25px;
-     padding-left: 0;
-     }
-}
-@media screen and (max-width: 710px) {
-    .common_block{
-        width: auto;
-    }
-    .picture3{
-        margin-right: 80px;
-    }
-}
-
-@media screen and (max-width: 639px) {
-    .head{
-        width: 100%;
-    }
-    .location{
-        display: block;}
-    .static{
-        font-size: 12px;
+    #menu li{
         display: block;
     }
-    .title{
+    #menu li a{
+        padding: 15px 10px 10px;
+    }
+    .mobile-menu{
         display: block;
     }
-    .static{
-     float: none;
-        margin: 0;
-        padding-left: 0;
+}
+@media screen and (max-width: 645px) {
+    .logo1{
+        width: 80%;
+        height: auto;
     }
-    .icons{
-        float: right;
+    .static ul li{
+        display: block;
+        margin: 0 0 10px 0;
+        padding: 0;
+        border: none;
     }
-    .menu{
-        margin-top: 70px;
-
+    .address{
+        width: 40%;
     }
-    .firstbl{
-        margin-top: 70px;
+    .block {
+        padding-right: 40px;
+        padding-left: 40px;
     }
 }
-@media screen and (max-width: 596px) {
-    .common_block{
-        width: 100%;
-    }
-    .picture2{
-        margin-bottom: 100px;
-    }
-}
-@media screen and (max-width: 551px) {
-    .head{
-        width: 100%;
-    }
-    .phila{
-        width: 100%;
-    }
-    .img{
-        width: 90%;
-    }
-.icons{
-    float: none;
-    margin-top: 45px;
-}
-}
-@media screen and (max-width: 421px) {
-
-    .img{
+@media screen and (max-width: 413px) {
+    .logo1{
         width: 100px;
         padding-right: 0px;
         padding-left: 0px;
+        margin-left: 0;
+        margin-right: 0;
     }
-    .img1{
-        width: 200px;
-    }
-    .menu{
-        margin-top: 130px;
+    .img{
+        width: 320px;
     }
 }
-@media screen and (max-width: 373px) {
+@media screen and (max-width: 370px) {
+    .logo1{
+        width: 100px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .img{
+        width: 280px;
+    }
 
-    .home{
-        width: 50%;
-    }
-    .logo{
-        margin-bottom: 110px;
-    }
 }
