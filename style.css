@@ -55,7 +55,7 @@ a:hover {
     color: #fff;
     border-radius: 3px;
     padding: 6px 16px;
-    margin-left: 30px;
+    margin-left: 35px;
 }
 .fa-angle-down {
     margin-left: 15px;
@@ -64,7 +64,7 @@ a:hover {
 }
 /****   BLOCK2   */
 .logo {
-    padding: 29px 100px;
+    padding: 0px 100px;
     background: #fff;
     height: auto;
 }
@@ -139,7 +139,6 @@ nav li a:hover:before {
 }
 .home {
     margin-left: 25px;
-    margin-bottom: 20px;
 }
 .search {
     float: right;
@@ -241,8 +240,8 @@ h4 {
     width: 50%;
     text-align: center;
     float: left;
-    padding-top: 132px;
-    padding-bottom: 150px;
+    padding-top: 142px;
+    padding-bottom: 140px;
 }
 .img9 {
     float: left;
