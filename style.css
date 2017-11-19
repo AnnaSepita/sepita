@@ -27,7 +27,7 @@ a:hover {
 .clearfix:after {
     clear: both;
 }
-/*    HEADER   */
+/*    BLOCK1   */
 .contacts-information {
     background: #ededed;
     padding: 13px 100px;
@@ -41,7 +41,7 @@ a:hover {
 }
 .icons {
     float: right;
-    margin-top: 8px;
+    margin-top: 5px;
 }
 .icons ul li {
     margin-left: 20px;
@@ -60,7 +60,6 @@ a:hover {
 .fa-angle-down {
     margin-left: 15px;
     font-size: 18px;
-    margin-top: 2px;
 }
 /****   BLOCK2   */
 .logo {
@@ -105,7 +104,7 @@ a:hover {
 .mobile-menu {
     color: white;
     font-size: 24px;
-    margin-top: 30px;
+    margin-top: 18px;
     display: none;
     cursor: pointer;
 }
@@ -276,6 +275,11 @@ h4 {
     }
     .static{
         float: left;
+    }
+    .static{
+        margin-top: 0;
+        margin-bottom: 20px;
+        padding-top: 0;
     }
 }
 
